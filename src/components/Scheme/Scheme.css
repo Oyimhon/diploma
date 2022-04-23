@@ -1,0 +1,10 @@
+.block.line-1 path,
+.block.line-2 path {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.block.line-1:hover path,
+.block.line-2:hover path {
+  opacity: 0.5;
+}

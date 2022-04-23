@@ -1,0 +1,71 @@
+.internetWrap {
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  height: 1056px;
+  margin: 0 auto;
+}
+
+.internetWrap img {
+  max-width: 100%;
+}
+
+.index {
+  position: absolute;
+  /* background-color: #0400ff; */
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.index-1 {
+  top: 19px;
+  left: 320px;
+}
+.index-2 {
+  top: 440px;
+  left: 114px;
+}
+.index-3 {
+  top: 160px;
+  left: 690px;
+}
+.index-4 {
+  top: 167px;
+  left: 1090px;
+}
+.index-5 {
+  top: 480px;
+  left: 412px;
+}
+.index-6 {
+  top: 480px;
+  left: 770px;
+}
+.index-7 {
+  top: 480px;
+  right: 250px;
+}
+
+.circle {
+  background: rgb(25, 102, 8);
+  background: radial-gradient(
+    circle,
+    rgba(25, 102, 8, 1) 24%,
+    rgba(32, 233, 1, 1) 89%,
+    rgba(255, 216, 0, 1) 100%
+  );
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.5s ease-in;
+}
+
+.circle:hover {
+  width: 100%;
+  height: 100%;
+}

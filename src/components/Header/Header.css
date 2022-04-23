@@ -1,0 +1,9 @@
+.depoLogo {
+  display: flex;
+  padding: 20px 20px;
+}
+
+.depoLogo img {
+  max-width: 300px;
+  margin: 0 auto;
+}
